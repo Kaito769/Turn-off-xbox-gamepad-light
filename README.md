@@ -4,7 +4,7 @@ A simple, lightweight tool to completely turn off the LED of your Xbox Controlle
 
 ![Xbox LED Off](https://img.shields.io/badge/Xbox_LED-OFF-green) ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
 
-## 🇬🇧 English Description
+## 🇺🇸 English Description
 
 ### Problem
 On Windows, the default XInput driver does not allow users to control the Xbox Controller's Guide Button LED. It is permanently set to a bright white light.
@@ -45,7 +45,7 @@ Bu araç, Steam'in sürücü altyapısını kullanarak bu engeli aşan basit bir
 
 ### Gereksinimler
 - Bilgisayarınızda **Steam** yüklü olmalıdır.
-  - *Neden?* Çünkü Windows ışık kontrolünü engeller. Bunu yapabilen tek güvenli araç Steam'dir. Bu program, Steam'i sadece bir "ayar aracı" olarak kullanıp kapatır.
+  - *Neden?* Çünkü Windows ışık kontrolünü engeller. Bunu yapabilen tek güvenli araç Steam'dir. Bu program, Steam'i sadece bir "aracı" olarak kullanıp kontrolcünün ışığını kapatır.
 
 ### Nasıl Kullanılır?
 1. **Releases** kısmından `XboxLedOff.exe` dosyasını indirin.
