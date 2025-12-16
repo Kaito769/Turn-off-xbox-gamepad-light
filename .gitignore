@@ -15,3 +15,6 @@ build/
 *.log
 *.txt
 !README.md
+
+# Config
+config.json
