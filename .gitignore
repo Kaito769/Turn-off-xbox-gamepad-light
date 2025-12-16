@@ -1,0 +1,17 @@
+# Ignore all python scripts by default (cleanup)
+*.py
+*.pyc
+__pycache__/
+
+# Allow our main GUI script
+!xbox_led_gui.py
+
+# Build artifacts
+dist/
+build/
+*.spec
+
+# Logs and temp
+*.log
+*.txt
+!README.md
