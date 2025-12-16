@@ -105,8 +105,24 @@ class XboxLedApp:
         # Metinleri Güncelle
         self.update_ui_text()
         
+        # İkon Ayarla
+        self.set_icon()
+        
         # Başlangıç Kontrolü
         self.check_steam_installation()
+
+    def set_icon(self):
+        try:
+            # PyInstaller çalışma alanı veya normal yol
+            if hasattr(sys, '_MEIPASS'):
+                icon_path = os.path.join(sys._MEIPASS, "appicon.ico")
+            else:
+                icon_path = "appicon.ico"
+                
+            if os.path.exists(icon_path):
+                self.root.iconbitmap(icon_path)
+        except:
+            pass
 
     def load_config(self):
         # Sistem Dilini Algıla
